@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    gap: 30px;
+}
+
+.container h1 {
+    font-size: 52px;
+    margin-top: 20px;
+}
+
+.left-column {
+    padding: 15px;
+    max-width: 400px;
+}
+
+.single-item {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li div img {
+    margin-right: 15px;
+}
+
+#subtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 0px;
+}
+
+
+input {
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-image: linear-gradient(90deg, hsl(4, 100%, 67%), hsl(30, 100%, 50%));
+}
+
+
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error-message {
+    font-weight: bold;
+    font-size: 14px;
+}
+.error-message p {
+    margin-top: 30px;
+}
+
+#error {
+    color: hsl(4, 100%, 67%);
+}
+
+.container2 {
+    display: none;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.container2 h1 {
+    margin-top: 15px;
+}
+
+.container2 p {
+    margin-top: 15px;
+}
+
+.container2 .btn {
+    margin-top: 15px;
+}
